@@ -58,7 +58,7 @@ drush site-install standard \
         --db-url='mysql://icmyl_userd8:S3CR3T@localhost:3306/icmyl_drupal_default' \
         --account-name=admin --account-pass=S3CR3T \
         --site-name=ICMYL \
-        --site-mail=lmeza@interware.com.mx \
+        --site-mail=merolhack@gmail.com \
         --locale=es \
 		--yes
 

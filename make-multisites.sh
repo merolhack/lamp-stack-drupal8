@@ -2,7 +2,7 @@
 # Bash3 Boilerplate. Copyright (c) 2014, kvz.io
 
 # @file:		~/scripts/make-multisites.sh
-# @author		Lenin Meza - InterWare | lmeza@interware.com.mx
+# @author		Lenin Meza - SociedadRed | merolhack@gmail.com
 # @version		0.0.1
 
 # set -o errexit  	# Exit on error
@@ -113,7 +113,7 @@ EOF
         --db-url="mysql://icmyl_userd8:S3CR3T@localhost:3306/icmyl_drupal_$i" \
         --account-name=admin --account-pass=S3CR3T \
         --site-name=ICMYL \
-        --site-mail=lmeza@interware.com.mx \
+        --site-mail=merolhack@gmail.com \
         --locale=es \
 		--yes
 done

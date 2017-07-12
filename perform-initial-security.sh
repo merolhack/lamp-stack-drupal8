@@ -2,7 +2,7 @@
 # Bash3 Boilerplate. Copyright (c) 2014, kvz.io
 
 # @file:		~/scripts/perform-initial-security.sh
-# @author		Lenin Meza - InterWare | lmeza@interware.com.mx
+# @author		Lenin Meza - SociedadRed | merolhack@gmail.com
 # @version		0.0.1
 
 # set -o errexit  	# Exit on error

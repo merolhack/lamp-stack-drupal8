@@ -2,7 +2,7 @@
 # Bash3 Boilerplate. Copyright (c) 2014, kvz.io
 
 # @file:		~/scripts/install-lamp-stack.sh
-# @author		Lenin Meza - InterWare | lmeza@interware.com.mx
+# @author		Lenin Meza - SociedadRed | merolhack@gmail.com
 # @version		0.0.2
 
 # set -o errexit  	# Exit on error
@@ -85,7 +85,7 @@ sudo chown -R apache:apache /usr/share/httpd/.composer
 echo "# Instalar GIT"
 sudo yum install git -y
 git config --global user.name "Lenin Meza"
-git config --global user.email "lmeza@interware.com.mx"
+git config --global user.email "merolhack@gmail.com"
 
 echo "# Instalar Drush"
 runuser -l $__user -c 'composer global require drush/drush'
